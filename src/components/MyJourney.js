@@ -4,27 +4,17 @@ import { Button } from './Button'
 
 const MyJourney = () => {
     return (
-        <HeroContainer>
-            <HeroBg>
-                <VideoBg src="" type="video/mp4" />
-            </HeroBg>
-            <HeroContent>
-                <HeroItems>
-                    <HeroH1>
+        <JourneyContainer>
+                    <JourneyH1>
                         Amanda Mock
-                    </HeroH1>
-                    <Herop>
-                        Changing text will cycle here.
-                    </Herop>
-                </HeroItems>
-            </HeroContent>
-        </HeroContainer>
+                    </JourneyH1>
+        </JourneyContainer>
     )
 }
 
 export default MyJourney
 
-const HeroContainer = styled.div`
+const JourneyContainer = styled.div`
     background: #fff;
     display: flex;
     justify-content:center;
@@ -36,11 +26,4 @@ const HeroContainer = styled.div`
     margin-top: -80px;
 `
 
-const HeroBg = styled.div``
-
-const VideoBg = styled.div``
-
-const HeroContent= styled.div``
-const HeroItems = styled.div``
-const HeroH1 = styled.h1``
-const Herop = styled.p``
+const JourneyH1 = styled.h1``
