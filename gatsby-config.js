@@ -1,6 +1,5 @@
 module.exports = {
   siteMetadata: {
-    author: `@gatsbyjs`,
     title: `Amanda Mock | Helping Businesses & Teams Do More`,
     description: `Description TBD`,
     author: `Amanda Mock`,
