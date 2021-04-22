@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import TypeItOut from './TypeItOut'
 import { Button } from './Button'
-import TypeItOut from './TypeItOut'
 
 const Hero = () => {
     return (
