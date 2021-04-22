@@ -4,8 +4,12 @@ import styled from 'styled-components'
 import TypeItOut from './TypeItOut'
 =======
 import { Button } from './Button'
+<<<<<<< HEAD
 >>>>>>> parent of 1e5f197 (type it out)
 
+=======
+import TypeItOut from './TypeItOut'
+>>>>>>> parent of 452c8c7 (reemove type it out)
 
 const Hero = () => {
     return (
@@ -18,9 +22,13 @@ const Hero = () => {
                     <HeroH1>
                         Amanda Mock
                     </HeroH1>
+<<<<<<< HEAD
                     <Herop>
                         Changing text will cycle here.
                     </Herop>
+=======
+                    <TypeItOut />
+>>>>>>> parent of 452c8c7 (reemove type it out)
                 </HeroItems>
             </HeroContent>
         </HeroContainer>
