@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Button } from './Button'
-import TypeItOut from './TypeItOut'
 
 const Hero = () => {
     return (
@@ -14,7 +13,6 @@ const Hero = () => {
                     <HeroH1>
                         Amanda Mock
                     </HeroH1>
-                    <TypeItOut />
                 </HeroItems>
             </HeroContent>
         </HeroContainer>
