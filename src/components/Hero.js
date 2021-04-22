@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Button } from './Button'
+import TypeItOut from './TypeItOut'
+
 
 const Hero = () => {
     return (
@@ -13,6 +14,7 @@ const Hero = () => {
                     <HeroH1>
                         Amanda Mock
                     </HeroH1>
+                    <TypeItOut />
                 </HeroItems>
             </HeroContent>
         </HeroContainer>
@@ -40,4 +42,3 @@ const VideoBg = styled.div``
 const HeroContent= styled.div``
 const HeroItems = styled.div``
 const HeroH1 = styled.h1``
-const Herop = styled.p``
