@@ -1,6 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
+<<<<<<< HEAD
 import TypeItOut from './TypeItOut'
+=======
+import { Button } from './Button'
+>>>>>>> parent of 1e5f197 (type it out)
 
 
 const Hero = () => {
@@ -14,7 +18,9 @@ const Hero = () => {
                     <HeroH1>
                         Amanda Mock
                     </HeroH1>
-                    <TypeItOut />
+                    <Herop>
+                        Changing text will cycle here.
+                    </Herop>
                 </HeroItems>
             </HeroContent>
         </HeroContainer>
