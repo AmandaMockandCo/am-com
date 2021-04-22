@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Button } from './Button'
+import TypeItOut from './TypeItOut'
 
 const Hero = () => {
     return (
@@ -13,9 +14,7 @@ const Hero = () => {
                     <HeroH1>
                         Amanda Mock
                     </HeroH1>
-                    <Herop>
-                        Changing text will cycle here.
-                    </Herop>
+                    <TypeItOut />
                 </HeroItems>
             </HeroContent>
         </HeroContainer>
