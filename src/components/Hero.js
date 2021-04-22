@@ -15,7 +15,6 @@ const Hero = () => {
                     <HeroH1>
                         Amanda Mock
                     </HeroH1>
-                    <TypeItOut />
                 </HeroItems>
             </HeroContent>
         </HeroContainer>
