@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: .9rem;
     position: relative;
     top:0;
     z-index: 999;
@@ -31,11 +31,18 @@ body {
     text-transform:uppercase;
     letter-spacing: 5px;
     margin:2.5%;
+    width:50%;
+    font-size: 2em;
+    text-shadow: 1px 2px 15px #ffffffb9 ;
   } 
 
   .fa-typo3 {
     margin-left: 0.5rem;
     font-size: 1.8rem;
+  }
+
+  .menu-container {
+    width:50%;
   }
   
   .nav-menu {
@@ -44,9 +51,9 @@ body {
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: fit-content;
     justify-content: end;
-    margin: 0 0 0 auto;
+    width: fit-content;
+    margin: 0 auto;
   }
   
   ul.nav-menu {
@@ -58,7 +65,7 @@ body {
   }
   
   .nav-links {
-    color: #fff;
+    color: rgb(36, 36, 36);
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -67,8 +74,8 @@ body {
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid #fff;
-    transition: all 0.2s ease-out;
+    color: rgb(179, 179, 179);
+    transition: all 0.5s ease-in-out;
   }
   
   .fa-bars {
@@ -83,7 +90,7 @@ body {
     display: none;
   }
   
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1150px) {
     .NavbarItems {
       position: relative;
     }
