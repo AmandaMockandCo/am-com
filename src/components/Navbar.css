@@ -83,7 +83,7 @@ body {
     display: none;
   }
   
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1300px) {
     .NavbarItems {
       position: relative;
     }
@@ -98,6 +98,7 @@ body {
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
+    margin: 0 0 0 auto;
     }
   
     .nav-menu.active {
@@ -121,7 +122,7 @@ body {
       border-radius: 0;
     }
   
-    .navbar-logo {
+    .logo {
       position: absolute;
       top: 0;
       left: 0;
