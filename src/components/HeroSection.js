@@ -1,7 +1,6 @@
 import React from 'react';
 import './HeroSection.css';
 import Typewriter from 'typewriter-effect';
-import AmandaMock from '../images/AmandaMock.jpg'
 function HeroSection() {
     return (
         <div className='hero-container'>
