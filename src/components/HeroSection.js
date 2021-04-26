@@ -1,11 +1,13 @@
 import React from 'react';
 import './HeroSection.css';
-import Typewriter from 'typewriter-effect'
-
+import Typewriter from 'typewriter-effect';
+import AmandaMock from '../images/AmandaMock.jpg'
 function HeroSection() {
     return (
         <div className='hero-container'>
+
             <h1>I'm Amanda Mock</h1>
+            <img src={AmandaMock} alt="Amanda Mock" width='500px' class="profileimage"/> 
             <h1>
             <Typewriter
                 options={{
