@@ -42,14 +42,57 @@
     background-size: 15em;
 }
 
+.tothemiddle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 80px);
+}
+
 .rightheocontent {
     padding:5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     object-fit: contain;
+    text-align:left;
+    width:550px;
+    vertical-align: middle;
+    height: 500px;
 }
+
+.rightheocontent h1{
+    
+    font-size:3em;
+    margin:0;
+    font-weight:500;
+    text-transform: uppercase;
+    text-align:left;
+}
+
+.rightheocontent a,.rightheocontent a:link, .rightheocontent a:visited 
+.rightheocontent a:active {
+    color: rgb(36, 36, 36) ;
+    padding: 0.5rem 1rem;
+}
+
+.rightheocontent a:hover {
+    color: rgb(179, 179, 179);
+    transition: all 0.5s ease-in-out;
+}
+
+.typewritercontainer {
+    min-height: 125px;
+    font-size:2em;
+    margin:0;
+}
+
+.typewritercontainer p {
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+
 
 .profileimage {
     

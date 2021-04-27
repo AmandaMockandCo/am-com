@@ -9,11 +9,12 @@ function HeroSection() {
             </div>
             
             <div className='righthero'>
+                <div className='tothemiddle'>
                 <div className='rightheocontent'>
                     <h1>I'm Amanda Mock</h1>
 
-                    <h1>
-                    <Typewriter
+                    <div className='typewritercontainer'>
+                    <p><Typewriter
                         options={{
                             loop: true,
                             deleteSpeed:25,
@@ -35,7 +36,13 @@ function HeroSection() {
                             .start();
                         }}
                     />
-                    </h1>
+                    </p>
+                    </div>
+                    <p>For over a decade I've worked with digital companies & 
+                        teams to imrpove performance, learn new tools, and 
+                        scale with fewer headaches.</p>
+                    <p><a href="/">Learn about my approach →</a></p>
+                </div>
                 </div>
             </div>
         </div>
