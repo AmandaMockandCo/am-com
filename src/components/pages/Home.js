@@ -6,6 +6,7 @@ import Approach from '../Approach';
 import Projects from '../Projects';
 import Contact from '../Contact';
 import WorkWithMe from '../WorkWithMe'
+import Footer from '../Footer';
 
 function Home () {
     return (
@@ -16,6 +17,7 @@ function Home () {
             <Projects />
             <WorkWithMe />
             <Contact />
+            <Footer />
         </>
     )
 }
