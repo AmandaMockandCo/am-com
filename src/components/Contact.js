@@ -5,19 +5,25 @@ import ContactForm from './ContactForm'
 function Contact() {
     return (
         <div className='contact-container'>
+            <div className='contact-hold-contents'>
             <div className='contact-header'>
-                <h1>Contact</h1>
+                <h2>Contact</h2>
+                <h3>Have a question or just want to say 'Hi'?</h3>
+                <h3>Send me an email using the form below, or connect with me somewhere on social.</h3>
             </div>
             <div className='contact-information'>
                 <div className='contact-form-container'>
                     <ContactForm />
                 </div>
-                <div className='socials-cta-container'>
-                    <h3>Social Information Here</h3>
+                <div className='socials-cta-container socialmiddle'>
+                    <div className='social-content'>
+                        <h3>Social Information Here</h3>
+                    </div>
+                    
                 </div>
             </div>
         </div>
-
+        </div>
     )
 }
 

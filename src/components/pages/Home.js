@@ -5,8 +5,9 @@ import About from '../About';
 import Approach from '../Approach';
 import Projects from '../Projects';
 import Contact from '../Contact';
-import WorkWithMe from '../WorkWithMe'
+import WorkWithMe from '../WorkWithMe';
 import Footer from '../Footer';
+import '../Home.css';
 
 function Home () {
     return (
