@@ -1,6 +1,5 @@
 import React from 'react'
 import './WorkWithMe.css'
-import ContactForm from './ContactForm'
 
 function WorkWithMe() {
     return (
