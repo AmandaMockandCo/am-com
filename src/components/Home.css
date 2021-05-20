@@ -1,6 +1,23 @@
 body {
-    background:#f3f3f3;
+    background-image: url(../images/background.png);
+    -webkit-transform: rotate(-12deg);
+    -moz-transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+    -o-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+    background-repeat: repeat;
+    background-size: 15em;
+    min-height: 50vh;
+    background-color: #fff;
     margin:0 !important;
+}
+
+#root {
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    -o-transform: rotate(12deg);
+    transform: rotate(12deg);
 }
 
 h1 {

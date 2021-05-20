@@ -17,7 +17,8 @@ function Contact() {
                 </div>
                 <div className='socials-cta-container socialmiddle'>
                     <div className='social-content'>
-                        <h3>Social Information Here</h3>
+                        <h3>Find Me Online</h3>
+                        <h4>TikTok | LinkedIn | Instagram</h4>
                     </div>
                     
                 </div>

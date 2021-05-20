@@ -1,22 +1,21 @@
 .work-with-me-divider {
-pointer-events: none;
-position: relative;
-left: 0;
-right: 0;
-bottom: -40em;
-top: 50%;
-z-index:1;
--webkit-transform: skewY(-12deg);
-transform: skewY(-12deg);
--webkit-transition: opacity .2s ease-out;
-transition: opacity .2s ease-out;
-will-change: transform;
-color:#242424;
-background-image: url(../images/background.png);
-background-repeat: repeat;
-background-size: 15em;
-min-height: 50vh;
-background-color: #fff;
+    pointer-events: none;
+    position: relative;
+    left: -7%;
+    right: 0;
+    bottom: -20em;
+    top: 20%;
+    z-index: 1;
+    transform: skewY(-12deg);
+    transition: opacity .2s ease-out;
+    will-change: transform;
+    color: #242424;
+    transform: rotate(351deg);
+    background-repeat: repeat;
+    background-size: 15em;
+    min-height: 50vh;
+    width: 130%;
+    background-color: #efefef;
 }
 
 
@@ -30,12 +29,7 @@ background-color: #fff;
     will-change: transform;
     color:#242424;  
     min-height: 80vh;
-    background: rgb(237,237,237);
-background: -moz-linear-gradient(0deg, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 100%);
-background: -webkit-linear-gradient(0deg, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 100%);
-background: linear-gradient(0deg, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ededed",endColorstr="#ffffff",GradientType=1);
-
+    background-color: #efefef;
     }
 
 .work-with-me-contents, .work-with-me-header {

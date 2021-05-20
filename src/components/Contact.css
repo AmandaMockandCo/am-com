@@ -1,26 +1,27 @@
 .contact-container {
     margin-top: -5%;
-    background-repeat: repeat;
-    background-size: 15em;
     z-index: 2;
     padding: 0 0 100px 0;
     position: relative;
-    color: rgb(36, 36, 36);
+    color: (36, 36, 36);
     text-align: center;
     clear:both;
     display:flex;
     flex-wrap: wrap;
+
+
 }
 
 
 .contact-hold-contents {
     width: 100%;
+    
 }
 
 .contact-form-container, .socials-cta-container  {
     width:40%;
     float:left;
-    padding:1.5% 5%;
+    padding:5%;
 }
 
 

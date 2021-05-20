@@ -11,9 +11,7 @@ function Approach() {
                 <h3>The different ways you can work with me are below, and what I do, how I do it etc.</h3>
             </div>
         </div>
-           <div className='work-with-me-divider'>
-                
-        </div>
+
         </div>
     )
 }

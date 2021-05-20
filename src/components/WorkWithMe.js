@@ -12,15 +12,8 @@ function WorkWithMe() {
                 <h3>The different ways you can work with me are below, and what I do, how I do it etc.</h3>
             </div>
             <div className='contact-information'>
-                <div className='contact-form-container'>
-                    <ContactForm />
-                </div>
-                <div className='socials-cta-container socialmiddle'>
-                    <div className='social-content'>
-                        <h3>Social Information Here</h3>
-                    </div>
-                    
-                </div>
+            <h3>Need help with your business or team?</h3>
+                <h3>The different ways you can work with me are below, and what I do, how I do it etc.</h3>
             </div>
         </div>
            <div className='work-with-me-divider'>
