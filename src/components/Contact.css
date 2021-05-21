@@ -2,10 +2,10 @@
     z-index: 2;
     padding: 5%;
     position: relative;
-    text-align: center;
     clear:both;
     display:flex;
     flex-wrap: wrap; 
+    text-align: center;
 }
 
 .hold-that-style {
@@ -44,30 +44,122 @@
 
 
 .contact-hold-contents {
-    z-index: 99;
+    z-index: 9;
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     
 }
 
-.contact-form-container, .socials-cta-container  {
+.contact-form-container {
+    width: 50%;
+    padding: 5% 0;
+    float: left;
+}
+
+.socials-cta-container  {
     width:40%;
     float:left;
-    padding:5%;
+    padding:  5% ;
+    
 }
 
 .social-content {
-    margin: auto 0;;
+    margin: auto 0;
+
 }
 
 .social-icon-container{
     margin: 0 auto;
     width: fit-content;
+    padding: 5%;
 }
 
-.social-icons {
-    display:flex;
-    float: left;
+.contact-information {
+    display: flex;
+    align-items: center;
 }
+
+.social-icons-wrapper {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+  }
+  .social-icons-wrapper:hover{
+    width: fit-content;
+    padding-right:30px;
+  }
+  .social-icons-wrapper .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+
+  
+  .twitter:hover .icon{
+    background: #55acee;
+  }
+
+.linkedin span {
+    color:#0077B5;
+
+  }
+
+  .linkedin:hover .icon {
+    background-color: #0077B5;
+  }
+
+  .instagram span {
+    color:#e4405f;
+
+  }
+
+  .tiktok:hover .icon {
+    background-color: #010101;
+  }
+
+  .tiktok span {
+    color:#010101;
+
+  }
+
+  .instagram:hover .icon {
+    background-color: #e4405f;
+  }
+  
+  .social-icons-wrapper .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .social-icons-wrapper:hover .icon i{
+    color: #fff;
+  }
+  .social-icons-wrapper span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+
+  .twitter span{
+    color: #55acee;
+  }
+
 
 ._form {
     -webkit-box-shadow: 0 50px 100px -20px rgb(50 50 93 / 25%), 0 30px 60px -30px rgb(0 0 0 / 30%), 0 -18px 60px -10px rgb(0 0 0 / 3%);
@@ -89,7 +181,12 @@
     width:100%;
 }
 
-._x11302145{
+._x13662695, ._x78123151 {
+    z-index: 9;
+}
+
+
+._x11302145 {
     font-size: 1.1em!important;
    width: fit-content !important;
        margin: 0 auto !important;
@@ -99,6 +196,8 @@
    width: 4%;
        float: left;
    }
+
+ 
    
    input[type="text"] {
    border-radius:5px !important;

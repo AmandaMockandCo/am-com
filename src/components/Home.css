@@ -12,10 +12,11 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#919BFF", en
 
     min-height: 50vh;
     margin:0 !important;
-    overflow-x:hidden;
 }
 
-
+#root {
+    overflow:hidden;
+}
 
 h1 {
     font-size: 3em;

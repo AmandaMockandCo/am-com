@@ -23,17 +23,29 @@ function Contact() {
                         <div className='social-text'>
                         <h3>Find Me Online</h3></div>
                         <div className='social-icon-container'>
-                            <div className="tiktok social-icons">
-                                (T) TikTok
-                            </div>
-                            <div className="twitter social-icons">
-                                (T) Twitter
-                            </div>
-                            <div className="linkedin social-icons">
-                                (L) LinkedIn
-                            </div>
-                            <div className="instagram social-icons">
-                                (I) Instagram
+                            <div onClick={()=> window.open("https://www.tiktok.com/@amandarmock", "_blank")} className="tiktok social-icons-wrapper">
+                                <div className='icon'>
+                                    <i class="fab fa-tiktok"></i> 
+                                </div>
+                                <span>TikTok</span>
+                                </div>
+                                <div onClick={()=> window.open("https://twitter.com/amandarmock", "_blank")} className="twitter social-icons-wrapper">
+                                    <div className='icon'>
+                                    <i class="fab fa-twitter"></i>
+                                    </div> 
+                                    <span>Twitter</span>
+                                </div>
+                                <div onClick={()=> window.open("https://www.linkedin.com/in/amandarmock/", "_blank")}className="linkedin social-icons-wrapper">
+                                    <div className='icon'>
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <span>LinkedIn</span>
+                                </div>
+                                <div onClick={()=> window.open("https://www.instagram.com/amandarmock/", "_blank")} className="instagram social-icons-wrapper">
+                                    <div className='icon'>
+                                    <i class="fab fa-instagram"></i>
+                                </div> 
+                                <span>Instagram</span>
                             </div>
                         </div>
                     </div>
