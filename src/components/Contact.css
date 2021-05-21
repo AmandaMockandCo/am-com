@@ -1,19 +1,50 @@
 .contact-container {
-    margin-top: -5%;
     z-index: 2;
-    padding: 0 0 100px 0;
+    padding: 5%;
     position: relative;
-    color: (36, 36, 36);
     text-align: center;
     clear:both;
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+}
+
+.hold-that-style {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 
+.contact-add-some-style {
+    pointer-events: none;
+    position: absolute;
+    left: -7%;
+    right: 0;
+    background-image: url(../images/background.png);
+    -webkit-transform: rotate(-12deg);
+    -moz-transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+    -o-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+    background-repeat: repeat;
+    background-size: 15em;
+    margin-top:-5em;
+    z-index: 1;
+    transform: skewY(-12deg);
+    transition: opacity .2s ease-out;
+    will-change: transform;
+    color: #242424;
+    transform: rotate(351deg);
+    background-repeat: repeat;
+    background-size: 15em;
+    min-height: 80em;
+    width: 130%;
+    background-color: #fff;
+    overflow-x: hidden !important;
 }
 
 
 .contact-hold-contents {
+    z-index: 99;
     width: 100%;
     
 }
@@ -24,7 +55,19 @@
     padding:5%;
 }
 
+.social-content {
+    margin: auto 0;;
+}
 
+.social-icon-container{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.social-icons {
+    display:flex;
+    float: left;
+}
 
 ._form {
     -webkit-box-shadow: 0 50px 100px -20px rgb(50 50 93 / 25%), 0 30px 60px -30px rgb(0 0 0 / 30%), 0 -18px 60px -10px rgb(0 0 0 / 3%);
@@ -37,7 +80,7 @@
 }
 
 .social-content{
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
 }

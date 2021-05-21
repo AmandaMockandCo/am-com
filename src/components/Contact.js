@@ -5,6 +5,9 @@ import ContactForm from './ContactForm'
 function Contact() {
     return (
         <div className='contact-container'>
+            <div className='hold-that-style'>
+                <div className='contact-add-some-style'></div>
+            </div>
             <div className='contact-hold-contents'>
             <div className='contact-header'>
                 <h2>Contact</h2>
@@ -17,8 +20,22 @@ function Contact() {
                 </div>
                 <div className='socials-cta-container socialmiddle'>
                     <div className='social-content'>
-                        <h3>Find Me Online</h3>
-                        <h4>TikTok | LinkedIn | Instagram</h4>
+                        <div className='social-text'>
+                        <h3>Find Me Online</h3></div>
+                        <div className='social-icon-container'>
+                            <div className="tiktok social-icons">
+                                (T) TikTok
+                            </div>
+                            <div className="twitter social-icons">
+                                (T) Twitter
+                            </div>
+                            <div className="linkedin social-icons">
+                                (L) LinkedIn
+                            </div>
+                            <div className="instagram social-icons">
+                                (I) Instagram
+                            </div>
+                        </div>
                     </div>
                     
                 </div>
