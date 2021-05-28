@@ -1,6 +1,6 @@
 .contact-container {
     z-index: 2;
-    padding: 5%;
+    padding:4% 0;
     position: relative;
     clear:both;
     display:flex;

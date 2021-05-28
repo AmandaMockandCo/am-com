@@ -41,7 +41,7 @@ function HeroSection() {
                     <p>For over a decade I've worked with digital companies & 
                         teams to imrpove performance, learn new tools, and 
                         scale with fewer headaches.</p>
-                    <p><a href="/">Learn about my approach →</a></p>
+                    <p><a href="/">Work with me →</a></p>
                 </div>
                 </div>
             </div>
