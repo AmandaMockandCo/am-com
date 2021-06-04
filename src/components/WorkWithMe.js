@@ -15,13 +15,13 @@ function WorkWithMe() {
             <div className='workwithme-options'>
                 <div className='workwithme-left'>
                     <div className='workwithmecard'>
-                        <h3>Free Advice on YouTube</h3>
+                        <h3>Free Advice on </h3><h3>YouTube</h3>
                         <p>(Image here)</p>
                         <p>Ditching the hype and half truths many "gurus" try and sell, my YouTube channel is a place
                             where you can get guidance on how to start an online business, combined with 
                             insights to help you grow. 
                         </p>
-                        <p>[Check It Out Now]</p>
+                        <div className='workbutton'><a href="/">Check it Out Now</a></div>
                     </div>
                 </div>
                 
@@ -31,10 +31,8 @@ function WorkWithMe() {
                         <p>(Image here)</p>
                         <p>No two teams or companies are the same, which is why 
                             I tailor my offerings to each client. Wheather you just need
-                            a little guidance, or someone to hold your hand through the process, I can help. 
-                             </p>
-
-                        <p>[Learn More]</p>
+                            a little guidance, or someone to hold your hand through the process, I can help. </p>
+                        <div className='workbutton'><a href="/">Learn More</a></div>
                     </div>
                 </div>
             </div>

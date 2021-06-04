@@ -68,3 +68,15 @@
     margin: 0 auto;
     min-height:300px;
 }
+
+.workwithmecard a {
+    background:#343434;
+    color:#fff;
+    text-decoration: none;
+    padding:5%;
+    border-radius: 5px;;
+}
+
+.workbutton {
+    padding: 5%;;
+}
